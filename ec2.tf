@@ -18,6 +18,6 @@ resource "aws_instance" "web" {
   ami           = "ami-0f51057b3256c013a"
   instance_type = "t3.micro"
   tags = {
-    Name = "HelloWorld"
+    Name = "HelloWorld-dev"
   }
 }
